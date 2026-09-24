@@ -1,0 +1,11 @@
+spring:
+  spring:
+    application:
+      name: gemini-demo
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY}
+        chat:
+          options:
+            model: gemini-3.6-flash
