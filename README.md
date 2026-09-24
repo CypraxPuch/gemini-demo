@@ -154,6 +154,18 @@ public class MovieController {
 
 ---
 
+#### 6️⃣ Test It Out with 
+```bash
+curl "http://localhost:8080/recommend?prompt=cartoon+series+like+gormiti"
+```
+**This was the response at the time**
+```JSON
+{"title":"Bionicle: Mask of Light","releaseYear":2003,"director":"Terry Shakespeare, David Molina","genres":["Animation","Action","Adventure","Fantasy","Family"],"briefSummary":"Two young villagers find a legendary golden mask and set out on a dangerous quest across their island to locate the prophesied Seventh Toa, the elemental hero destined to defeat the dark lord Makuta."}
+```
+
+---
+
+
 ### 🔥 Why This Stack Wins:
 ✅ **No Manual JSON Parsing:** Spring AI generates JSON Schema directly from Java `record` reflection.  
 ✅ **Zero Boilerplate:** `ChatClient` abstracts all raw HTTP logic into fluent, readable calls.  
